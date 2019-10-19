@@ -1,4 +1,4 @@
-## LLC04 Ecommerce System
+## Simple Ecommerce
 
 Ecommerce system developed using PHP 7
 
@@ -6,5 +6,5 @@ Ecommerce system developed using PHP 7
 
 - Clone the repo
 - Run `composer install`
-- Run `yarn install`
+- Run `npm install`
 - Create a database and export the `.sql` file to the database
