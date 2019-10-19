@@ -1,0 +1,26 @@
+{
+    "name": "sumonselim/llc04-ecommerce",
+    "description": "Ecommerce platform using PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Sumon Molla Selim",
+            "email": "me@sumonselim.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.0",
+        "phroute/phroute": "^2.1",
+        "illuminate/database": "^5.7",
+        "respect/validation": "^1.1",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
