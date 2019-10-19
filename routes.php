@@ -11,8 +11,8 @@ $router->filter('auth', function () {
     }
 });
 
-$router->controller('llc04-ecommerce', \App\Controllers\Frontend\HomeController::class);
-$router->controller('llc04-ecommerce/cart', \App\Controllers\Frontend\CartController::class);
+$router->controller('/', \App\Controllers\Frontend\HomeController::class);
+$router->controller('/cart', \App\Controllers\Frontend\CartController::class);
 $router->group(['before' => 'auth'], function (RouteCollector $router) {
     $router->controller('/checkout', \App\Controllers\Frontend\CheckoutController::class);
 });
